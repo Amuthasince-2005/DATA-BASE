@@ -1,0 +1,10 @@
+<!DOCTYPE login SYSTEM "default.dtd">
+<login>
+<default> 10 </default>
+<designed by> Amutha </designed by>
+</login>
+
+
+<!ELEMENT LOGIN ( DEFAULT,DESIGNED BY )
+<!ELEMENT DEFAULT ( #PCDATA)
+<!ELEMENT DESIGNED BY (#PCDATA)
